@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		EBFADA0F2396438E006C5478 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFADA0E2396438E006C5478 /* AppDelegate.swift */; };
-		EBFADA112396438E006C5478 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFADA102396438E006C5478 /* ViewController.swift */; };
 		EBFADA142396438E006C5478 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBFADA122396438E006C5478 /* Main.storyboard */; };
 		EBFADA162396438F006C5478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBFADA152396438F006C5478 /* Assets.xcassets */; };
 		EBFADA192396438F006C5478 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBFADA172396438F006C5478 /* LaunchScreen.storyboard */; };
+		EBFADA312396443B006C5478 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFADA222396443A006C5478 /* ProgressHUD.m */; };
+		EBFADA322396443B006C5478 /* XYSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFADA302396443B006C5478 /* XYSDK.a */; };
+		EBFADA3623964890006C5478 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFADA3523964890006C5478 /* HomePageViewController.swift */; };
+		EBFADA382396494A006C5478 /* TagPrintingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFADA372396494A006C5478 /* TagPrintingViewController.swift */; };
+		EBFADA3A2396496C006C5478 /* BillPrintingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFADA392396496C006C5478 /* BillPrintingViewController.swift */; };
+		EBFADA3C23965875006C5478 /* UIView+showToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFADA3B23965875006C5478 /* UIView+showToast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EBFADA0B2396438E006C5478 /* XYPrint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYPrint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBFADA0E2396438E006C5478 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EBFADA102396438E006C5478 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EBFADA132396438E006C5478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBFADA152396438F006C5478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBFADA182396438F006C5478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBFADA1A2396438F006C5478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBFADA212396443A006C5478 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		EBFADA222396443A006C5478 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		EBFADA262396443B006C5478 /* XYBLEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYBLEManager.h; sourceTree = "<group>"; };
+		EBFADA272396443B006C5478 /* PosCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PosCommand.h; sourceTree = "<group>"; };
+		EBFADA282396443B006C5478 /* ImageTranster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTranster.h; sourceTree = "<group>"; };
+		EBFADA292396443B006C5478 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		EBFADA2A2396443B006C5478 /* BLEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEManager.h; sourceTree = "<group>"; };
+		EBFADA2B2396443B006C5478 /* libXYPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libXYPrinter.h; sourceTree = "<group>"; };
+		EBFADA2C2396443B006C5478 /* TscCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TscCommand.h; sourceTree = "<group>"; };
+		EBFADA2D2396443B006C5478 /* XYSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYSDK.h; sourceTree = "<group>"; };
+		EBFADA2E2396443B006C5478 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		EBFADA2F2396443B006C5478 /* XYWIFIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYWIFIManager.h; sourceTree = "<group>"; };
+		EBFADA302396443B006C5478 /* XYSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = XYSDK.a; sourceTree = "<group>"; };
+		EBFADA3423964506006C5478 /* XYPrint-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XYPrint-Bridging-Header.h"; sourceTree = "<group>"; };
+		EBFADA3523964890006C5478 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		EBFADA372396494A006C5478 /* TagPrintingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagPrintingViewController.swift; sourceTree = "<group>"; };
+		EBFADA392396496C006C5478 /* BillPrintingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillPrintingViewController.swift; sourceTree = "<group>"; };
+		EBFADA3B23965875006C5478 /* UIView+showToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+showToast.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBFADA322396443B006C5478 /* XYSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +61,7 @@
 		EBFADA022396438E006C5478 = {
 			isa = PBXGroup;
 			children = (
+				EBFADA3423964506006C5478 /* XYPrint-Bridging-Header.h */,
 				EBFADA0D2396438E006C5478 /* XYPrint */,
 				EBFADA0C2396438E006C5478 /* Products */,
 			);
@@ -55,13 +79,61 @@
 			isa = PBXGroup;
 			children = (
 				EBFADA0E2396438E006C5478 /* AppDelegate.swift */,
-				EBFADA102396438E006C5478 /* ViewController.swift */,
 				EBFADA122396438E006C5478 /* Main.storyboard */,
+				EBFADA3B23965875006C5478 /* UIView+showToast.swift */,
+				EBFADA3523964890006C5478 /* HomePageViewController.swift */,
+				EBFADA372396494A006C5478 /* TagPrintingViewController.swift */,
+				EBFADA392396496C006C5478 /* BillPrintingViewController.swift */,
 				EBFADA152396438F006C5478 /* Assets.xcassets */,
 				EBFADA172396438F006C5478 /* LaunchScreen.storyboard */,
 				EBFADA1A2396438F006C5478 /* Info.plist */,
+				EBFADA202396443A006C5478 /* ProgressHUD */,
+				EBFADA232396443B006C5478 /* XYSDK */,
 			);
 			path = XYPrint;
+			sourceTree = "<group>";
+		};
+		EBFADA202396443A006C5478 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EBFADA212396443A006C5478 /* ProgressHUD.h */,
+				EBFADA222396443A006C5478 /* ProgressHUD.m */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		EBFADA232396443B006C5478 /* XYSDK */ = {
+			isa = PBXGroup;
+			children = (
+				EBFADA242396443B006C5478 /* include */,
+				EBFADA302396443B006C5478 /* XYSDK.a */,
+			);
+			path = XYSDK;
+			sourceTree = "<group>";
+		};
+		EBFADA242396443B006C5478 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EBFADA252396443B006C5478 /* XYSDK */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		EBFADA252396443B006C5478 /* XYSDK */ = {
+			isa = PBXGroup;
+			children = (
+				EBFADA262396443B006C5478 /* XYBLEManager.h */,
+				EBFADA272396443B006C5478 /* PosCommand.h */,
+				EBFADA282396443B006C5478 /* ImageTranster.h */,
+				EBFADA292396443B006C5478 /* AsyncSocket.h */,
+				EBFADA2A2396443B006C5478 /* BLEManager.h */,
+				EBFADA2B2396443B006C5478 /* libXYPrinter.h */,
+				EBFADA2C2396443B006C5478 /* TscCommand.h */,
+				EBFADA2D2396443B006C5478 /* XYSDK.h */,
+				EBFADA2E2396443B006C5478 /* AsyncUdpSocket.h */,
+				EBFADA2F2396443B006C5478 /* XYWIFIManager.h */,
+			);
+			path = XYSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +207,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBFADA112396438E006C5478 /* ViewController.swift in Sources */,
+				EBFADA382396494A006C5478 /* TagPrintingViewController.swift in Sources */,
+				EBFADA3C23965875006C5478 /* UIView+showToast.swift in Sources */,
+				EBFADA3A2396496C006C5478 /* BillPrintingViewController.swift in Sources */,
+				EBFADA312396443B006C5478 /* ProgressHUD.m in Sources */,
 				EBFADA0F2396438E006C5478 /* AppDelegate.swift in Sources */,
+				EBFADA3623964890006C5478 /* HomePageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,16 +359,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 6UH7D68N7N;
 				INFOPLIST_FILE = XYPrint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.XYPrint;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XYPrint/XYSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.XYPrint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kimbely/Desktop/XYPrint/XYPrint-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,16 +383,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 6UH7D68N7N;
 				INFOPLIST_FILE = XYPrint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.XYPrint;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XYPrint/XYSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.XYPrint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kimbely/Desktop/XYPrint/XYPrint-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
